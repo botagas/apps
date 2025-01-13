@@ -28,7 +28,7 @@ added_date = 1674232499 # 2023/01/20
 category = "system_tools"
 level = 6
 state = "working"
-url = "https://github.com/YunoHost-Apps/2fauth_ynh"
+url = "https://github.com/noHost-Apps/2fauth_ynh"
 
 [abantecart]
 added_date = 1674232499 # 2023/01/20
@@ -36,7 +36,7 @@ category = "publishing"
 level = 6
 state = "working"
 subtags = [ "ecommerce" ]
-url = "https://github.com/YunoHost-Apps/abantecart_ynh"
+url = "https://github.com/noHost-Apps/abantecart_ynh"
 
 [acropolis]
 added_date = 1674232499 # 2023/01/20
@@ -46,7 +46,7 @@ deprecated_date = 1717071136 # 2024/05/30
 level = 0
 state = "working"
 subtags = [ "microblogging", "pictures" ]
-url = "https://github.com/YunoHost-Apps/acropolis_ynh"
+url = "https://github.com/noHost-Apps/acropolis_ynh"
 
 [actual]
 added_date = 1685962455 # 2023/06/05
@@ -55,7 +55,7 @@ level = 8
 potential_alternative_to = [ "Bankin", "Budgea", "Linxo", "Microsoft Money", "Mint", "You Need A Budget" ]
 state = "working"
 subtags = [ "accounting" ]
-url = "https://github.com/YunoHost-Apps/actual_ynh"
+url = "https://github.com/noHost-Apps/actual_ynh"
 
 [adguardhome]
 added_date = 1674232499 # 2023/01/20
@@ -63,7 +63,7 @@ category = "system_tools"
 level = 6
 state = "working"
 subtags = [ "network" ]
-url = "https://github.com/YunoHost-Apps/adguardhome_ynh"
+url = "https://github.com/noHost-Apps/adguardhome_ynh"
 
 [adminer]
 added_date = 1674232499 # 2023/01/20
@@ -4743,7 +4743,7 @@ url = "https://github.com/YunoHost-Apps/yourls_ynh"
 added_date = 1674232499 # 2023/01/20
 category = "dev"
 level = 0
-state = "notworking"
+state = "working"
 url = "https://github.com/YunoHost-Apps/yunorunner_ynh"
 
 [z-push]
