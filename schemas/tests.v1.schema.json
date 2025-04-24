@@ -1,6 +1,6 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema",
-    "$id": "https://raw.githubusercontent.com/YunoHost/apps/master/schemas/tests.v1.schema.json",
+    "$id": "https://raw.githubusercontent.com/YunoHost/apps/main/schemas/tests.v1.schema.json",
     "title": "Yunohost app package tests.toml schema",
     "version": "0",
     "type": "object",
@@ -108,7 +108,17 @@
                                     "type": "string"
                                 },
                                 "expect_return_code": {
-                                    "type": "integer"
+                                    "anyOf": [
+                                        {
+                                            "type": "integer"
+                                        },
+                                        {
+                                            "type": "array",
+                                            "items": {
+                                                "type": "integer"
+                                            }
+                                        }
+                                    ]
                                 },
                                 "expect_effective_url": {
                                     "type": "string",

@@ -43,11 +43,11 @@ It is used to prevent apps to be added to the wishlist.
 
 ## How to add your app to the application catalog
 
-> **Note**
+> [!NOTE]
 > The YunoHost project will **NOT** integrate in its catalog applications that are not
 > based on free-software upstreams.
 
-> **Note**
+> [!NOTE]
 > We strongly encourage you to transfer the ownership of your repository to
 > the YunoHost-Apps organization on GitHub, such that the community will help you
 > with keeping your app working and up to date with packaging evolutions on the long run.
@@ -77,10 +77,10 @@ state = "working"
 url = "https://github.com/YunoHost-Apps/your_app_ynh"
 ```
 
-> **Warning**
-> Implicitly, the catalog publishes the `HEAD` of branch `master`
+> [!WARNING]
+> Implicitly, the catalog publishes the `HEAD` of branch `main`
 > (this can be overwritten by adding keys `branch` and `revision`).
-> Therefore, **be careful that any commit on the `master` branch will automatically be published**.
+> Therefore, **be careful that any commit on the `main` branch will automatically be published**.
 > **We strongly encourage you to develop in separate branches**, and only
 > merge changes that were carefully tested. Get in touch with the Apps group to
 > obtain an access to the developer CI where you'll be able to test your app
