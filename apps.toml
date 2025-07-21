@@ -2164,6 +2164,13 @@ category = "multimedia"                        # Replace with the appropriate ca
 state = "working"
 url = "https://github.com/botagas/janitorr_ynh"
 
+[wizarr]
+antifeatures = [ "arbitrary-limitations", "alpha-software" ]   # Replace with the appropriate category id found in antifeatures.toml, remove if no relevant antifeature applies
+potential_alternative_to = [ "JFA-Go" ]   # Indicate if your app can be thought of as an alternative to popular proprietary services (or remove if none applies)
+category = "multimedia"                        # Replace with the appropriate category id found in categories.toml, don't invent a category
+state = "working"
+url = "https://github.com/botagas/wizarr_ynh"
+
 [wgdashboard]
 antifeatures = [ "arbitrary-limitations", "alpha-software" ]   # Replace with the appropriate category id found in antifeatures.toml, remove if no relevant antifeature applies
 potential_alternative_to = [ "WireGuard Server" ]   # Indicate if your app can be thought of as an alternative to popular proprietary services (or remove if none applies)
